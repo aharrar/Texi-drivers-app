@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Drivers rides">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_taxi_driver"
+                android:title="Taxi's details" />
+            <item
+                android:id="@+id/nav_available"
+                android:icon="@drawable/ic_available"
+                android:title="Available rides" />
+            <item
+                android:id="@+id/nav_finished"
+                android:icon="@drawable/ic_finished"
+                android:title="Finished rides" />
+            <item
+                android:id="@+id/nav_leave"
+                android:icon="@drawable/ic_leave"
+                android:title="Exit program" />
+
+        </menu>
+    </item>
+
+</menu>
